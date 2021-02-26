@@ -1,0 +1,13 @@
+foo: bar
+message: test3
+
+services:
+  properties:
+    - id: ppm
+      baseUrl: https://ppm.tekoapis.com2/
+    - id: product
+      baseUrl: https://discovery.tekoapis.com/
+    - id: us
+      baseUrl: https://users.tekoapis.com/
+    - id: identity
+      baseUrl: ${IDENTITY_BASE_URL}
