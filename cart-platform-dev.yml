@@ -15,20 +15,20 @@ services:
 
 tenants:
   properties:
-    - id: ${VNSHOP_ID}
+    - id: 2
       host: ${VNSHOP_DB_HOST}
-      port: ${VNSHOP_DB_PORT}
+      port: 3306
       database: ${VNSHOP_DB}
       username: ${VNSHOP_DB_USERNAME}
       password: ${VNSHOP_DB_PASSWORD}
-      secretKey: ${VNSHOP_SECRET_KEY}
-      clientCode: ${VNSHOP_CLIENT_CODE}
+      secretKey: secret
+      clientCode: vnshop
 
-    - id: ${PHONGVU_ID}
+    - id: 1
       host: ${PHONGVU_DB_HOST}
-      port: ${PHONGVU_DB_PORT}
+      port: 3306
       database: ${PHONGVU_DB}
       username: ${PHONGVU_DB_USERNAME}
       password: ${PHONGVU_DB_PASSWORD}
-      secretKey: ${PHONGVU_SECRET_KEY}
-      clientCode: ${PHONGVU_CLIENT_CODE}
+      secretKey: secret
+      clientCode: vnshop
