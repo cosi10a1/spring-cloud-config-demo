@@ -1,10 +1,10 @@
-foo: bar
-message: test
+foo: bar1
+message: test1
 
 services:
   properties:
     - id: ppm
-      baseUrl: https://ppm.tekoapis.com/
+      baseUrl: https://ppm.tekoapis.com1/
     - id: product
       baseUrl: https://discovery.tekoapis.com/
     - id: us
