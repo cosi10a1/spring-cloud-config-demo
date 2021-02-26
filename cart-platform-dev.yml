@@ -11,3 +11,24 @@ services:
       baseUrl: https://users.tekoapis.com/
     - id: identity
       baseUrl: ${IDENTITY_BASE_URL}
+
+
+tenants:
+  properties:
+    - id: ${VNSHOP_ID}
+      host: ${VNSHOP_DB_HOST}
+      port: ${VNSHOP_DB_PORT}
+      database: ${VNSHOP_DB}
+      username: ${VNSHOP_DB_USERNAME}
+      password: ${VNSHOP_DB_PASSWORD}
+      secretKey: ${VNSHOP_SECRET_KEY}
+      clientCode: ${VNSHOP_CLIENT_CODE}
+
+    - id: ${PHONGVU_ID}
+      host: ${PHONGVU_DB_HOST}
+      port: ${PHONGVU_DB_PORT}
+      database: ${PHONGVU_DB}
+      username: ${PHONGVU_DB_USERNAME}
+      password: ${PHONGVU_DB_PASSWORD}
+      secretKey: ${PHONGVU_SECRET_KEY}
+      clientCode: ${PHONGVU_CLIENT_CODE}
