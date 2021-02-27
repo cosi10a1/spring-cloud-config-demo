@@ -6,7 +6,7 @@ services:
     - id: ppm
       baseUrl: https://ppm.tekoapis.com11/
     - id: product
-      baseUrl: https://discovery.tekoapis.com1/
+      baseUrl: https://discovery.tekoapis.com/
     - id: us
       baseUrl: https://users.tekoapis.com/
     - id: identity
