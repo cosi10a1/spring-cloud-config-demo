@@ -4,7 +4,7 @@ message: test1
 services:
   properties:
     - id: ppm
-      baseUrl: https://ppm.tekoapis.com112/
+      baseUrl: https://ppm.tekoapis.com11/
     - id: product
       baseUrl: https://discovery.tekoapis.com/
     - id: us
